@@ -124,7 +124,7 @@
 //loops in javascript
 
 //for loop
-var arr=[1,2,3,4,5,6,7];
+//var arr=[1,2,3,4,5,6,7];
 // //console.log(arr);
 // for(var i=0;i<arr.length;i++){
 //     console.log(arr[i]);
@@ -153,8 +153,60 @@ var arr=[1,2,3,4,5,6,7];
 
 
 //break and continue
-for(var i=0;i<arr.length;i++){
-    if(i==2)
-    break;
-    console.log(arr[i]);
-}
+// for(var i=0;i<arr.length;i++){
+//     if(i==2)
+//     //break;
+//     //continue;
+//     console.log(arr[i]);
+// }
+
+
+//javascript array methods
+
+//let myarr=["Fan","Camera",34,null,true];
+//  console.log(myarr.length);
+//  //myarr.pop();
+//  //myarr.push("harry");
+//  //myarr.shift(); //remove irst element
+//  //myarr.unshift();
+//  const newlen=myarr.unshift("aa");
+//  console.log(newlen);
+// console.log(myarr.toString());
+// console.log(myarr.sort());
+// const splicee=['Jan','Feb'];
+// splicee.splice(1,0,'March');
+// console.log(splicee);   //overwrite element at 1 index and replaces 0 element
+
+
+//string methods in javascript
+
+
+// let str="aakrati";
+// console.log(str.length);
+// console.log(str.indexOf("aa")); //first occurence
+// console.log(str.lastIndexOf("a"));  //last occurence
+// console.log(str.slice(1,3));
+// var d=str.replace("aa","akp");
+// console.log(d);
+
+
+//dates in javascript
+
+// let myDate=new Date();
+// console.log(myDate);
+// console.log(myDate.getFullYear());
+// console.log(myDate.getTime());
+// console.log(myDate.getDay());
+
+
+//DOM manipulation
+
+
+
+
+
+
+
+
+
+//
