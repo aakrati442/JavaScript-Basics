@@ -245,29 +245,69 @@
 
 //Events in javascripts
 
-function clicked(){
-    console.log("the button was clicked");
-}
-window.onload=function(){
-    console.log(" loaded");
-}
+// function clicked(){
+//     console.log("the button was clicked");
+// }
+// window.onload=function(){
+//     console.log(" loaded");
+// }
 
-first.addEventListener('click',function(){
-    console.log("clicked");       //---------first is id 
-})
+// first.addEventListener('click',function(){
+//     console.log("clicked");       //---------first is id 
+// })
 
-first.addEventListener('mouseover',function(){
-    console.log("hovered");
-})
+// first.addEventListener('mouseover',function(){
+//     console.log("hovered");
+// })
 
-first.addEventListener('mouseout',function(){
-    console.log("overed");
-})
+// first.addEventListener('mouseout',function(){
+//     console.log("overed");
+// })
 
-first.addEventListener('mouseup',function(){
-    console.log("uped");
-})
+// first.addEventListener('mouseup',function(){
+//     console.log("uped");
+// })
 
-first.addEventListener('mousedown',function(){
-    console.log("");
-})
+// first.addEventListener('mousedown',function(){
+//      document.querySelectorAll('.container)[1].innerHTML="<b> We have clicked </b>"
+//      console.log("mouse down");
+// })
+
+
+//setTimeOUt and setInterval
+
+
+// function sum(a,b){
+//     return a+b;
+// }
+
+// summ=(a,b)=>{
+//     return a+b;
+// }
+//summ(2,3)
+
+
+//setTimeOut
+
+// logKaro=()=>{
+//     console.log("I m your Log");
+// }
+// //setTimeout(logKaro,2000);
+// clr=setInterval(logKaro,3000);
+//clearInterval(clr);   //to stop setInterval
+
+
+//JavaScript Local Storage
+localStorage.setItem('name','AAkrati');
+
+
+//JSON data in JavaScript
+
+// obj={name: "aa",length:1, a:{this:"th'at"}}
+// jso=JSON.stringify(obj);
+// console.log(jso)
+// console.log(typeof jso)
+// parsed=JSON.parse(`{"name":"aa"}`)
+// console.log(parsed)
+
+
