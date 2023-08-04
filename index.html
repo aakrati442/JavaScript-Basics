@@ -4,11 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            color:purple;
+        }
+        .container{
+            border: 2px solid black;
+            margin: 5px;
+        }
+        .bg-primary{
+            background-color: blue;
+        }
+    </style>
 </head>
 <body>
     <h1>This is heading</h1>
     <div id="first" class="container">
-        <button id="click">Click me!</button>
+        <button id="click" onclick="clicked()">Click me!</button>
     </div>
     <div class="container">
         <p>This is para</p>

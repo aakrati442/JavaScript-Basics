@@ -201,12 +201,73 @@
 
 //DOM manipulation
 
+// let ele=document.getElementById('click');
+// //console.log(ele);
 
 
+// let eleClass=document.getElementsByClassName("container")
+// //console.log(eleClass);
+// //eleClass[0].style.background="yellow";
+// eleClass[0].classList.add("bg-primary");
+// eleClass[0].classList.add("text-success");
+// //eleClass[0].classList.remove("text-success");
+// // console.log(eleClass[0].innerHTML);
+// // console.log(eleClass[0].innerText);
+
+// let n=document.getElementsByTagName('div');
+// console.log(n);
+
+// createEle=document.createElement('p');
+// createEle.innerText="This is new para";
+// n[0].appendChild(createEle);
+
+// createEle2=document.createElement('p');
+// createEle2.innerText="This is 2 new para";
+// n[0].replaceChild(createEle2,createEle);
+
+//removeChild(ele);  ---> remove an element
+
+//document.URL
+//document.images
+// document.domain
+// document.links
+// document.scripts
+// document.title
+// document.location --------> run on console
+
+//SElecting using query
+// sel=document.querySelector('.container')
+// console.log(sel)    //---------> returns an elemnt only
+
+// sel=document.querySelectorAll('.container')
+// console.log(sel)    //-------------> returns a nodelist
 
 
+//Events in javascripts
 
+function clicked(){
+    console.log("the button was clicked");
+}
+window.onload=function(){
+    console.log(" loaded");
+}
 
+first.addEventListener('click',function(){
+    console.log("clicked");       //---------first is id 
+})
 
+first.addEventListener('mouseover',function(){
+    console.log("hovered");
+})
 
-//
+first.addEventListener('mouseout',function(){
+    console.log("overed");
+})
+
+first.addEventListener('mouseup',function(){
+    console.log("uped");
+})
+
+first.addEventListener('mousedown',function(){
+    console.log("");
+})
